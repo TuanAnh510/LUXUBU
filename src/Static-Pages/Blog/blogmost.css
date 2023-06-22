@@ -1,0 +1,7 @@
+.blog-search button {
+  border: solid 1px lightgray;
+  border-radius: 10px;
+  width: 140px;
+  height: 80px;
+  background-color: transparent;
+}

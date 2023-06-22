@@ -1,0 +1,29 @@
+.Filter_container {
+  display: flex;
+  position: relative;
+  border: 1px solid #e8e8e9;
+  border-radius: 8px;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.06);
+  height: 60px;
+  justify-content: space-between;
+  padding: 0 26px;
+  width: 100%;
+}
+.Filter_heading {
+  align-items: flex-start;
+  width: 150px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  height: 60px;
+  justify-content: center;
+}
+.Filter_price {
+  align-items: flex-start;
+  width: 100px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  height: 60px;
+  justify-content: center;
+}

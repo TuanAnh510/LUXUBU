@@ -1,0 +1,29 @@
+.BrandPriceHolder {
+  position: absolute;
+  top: 2rem;
+  /* top: 5.5rem;
+    width: 8rem;
+    text-transform: capitalize;
+    font-weight: 400; */
+}
+
+.BrandSetMainParent {
+  position: absolute;
+  left: 2.5rem;
+}
+
+.BrandHold {
+  position: relative;
+
+  left: 16rem;
+}
+
+.giftName {
+  font-size: 15px;
+  font-weight: 500;
+}
+.brandgift img {
+  top: 2rem;
+  width: 450px;
+  height: 200px;
+}

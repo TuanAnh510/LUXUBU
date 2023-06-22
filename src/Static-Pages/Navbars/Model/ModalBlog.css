@@ -1,0 +1,19 @@
+.blogPriceHolder {
+  position: absolute;
+  left: 2rem;
+}
+
+.blogSetMainParent {
+  /* position: absolute; */
+  left: 2.5rem;
+}
+
+.blogHold {
+  position: relative;
+  left: 21rem;
+  margin-top: 30px;
+}
+.blogimg img {
+  width: 300px;
+  height: 170px;
+}

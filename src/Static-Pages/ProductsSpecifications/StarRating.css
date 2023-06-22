@@ -1,0 +1,48 @@
+.star-rating {
+  display: inline-block;
+  font-size: 25px;
+  unicode-bidi: bidi-override;
+  text-align: center;
+}
+
+.star {
+  display: inline-block;
+  color: grey;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.star.selected {
+  color: rgb(0, 0, 0);
+  font-size: 25px;
+}
+.selected-stars {
+  font-size: 0.5em;
+  color: grey;
+}
+.ip_color {
+  width: 150px;
+  margin: 0 10px;
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  background: #e8e8e8;
+  height: 15px;
+}
+.ip_layer {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 15px;
+  background: #ff6606;
+  display: inline-block;
+  width: 40%;
+}
+.box_comment {
+  padding: 10px 10px 0 10px;
+  margin-bottom: 10px;
+}
+.start {
+  font-size: 30px;
+  width: 100%;
+}

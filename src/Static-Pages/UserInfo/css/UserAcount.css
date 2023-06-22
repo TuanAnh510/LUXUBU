@@ -1,0 +1,31 @@
+.User_His {
+  background-color: #fff;
+  border-radius: 8px;
+}
+
+.containerAC {
+  cursor: pointer;
+  line-height: 40px;
+  color: black;
+  padding: 0 12px;
+  justify-content: space-between;
+  font-weight: 600;
+  display: flex;
+  overflow: hidden;
+}
+.user_icon {
+  font-size: 24px; /* Kích thước ban đầu */
+  transition: font-size 0.3s; /* Hiệu ứng chuyển đổi kích thước */
+}
+
+.expanded .user_icon {
+  font-size: 40px; 
+}
+.additional-content {
+  margin-top: 20px;
+  text-align: left;
+}
+
+.expanded .additional-content {
+  display: block;
+}

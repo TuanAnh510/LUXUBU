@@ -1,0 +1,10 @@
+.CBack {
+  background-position: 50%;
+  background-image: url("https://js.lixibox.com/image-assets/info/cover.png");
+  height: 300px;
+}
+.CBlur {
+  margin-top: -100px;
+  background: hsla(0, 0%, 100%, 0.8);
+  backdrop-filter: blur(30px);
+}

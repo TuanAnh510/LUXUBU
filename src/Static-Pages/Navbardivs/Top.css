@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap");
+
+.AdBottom_mainCon {
+  background-color: #202020;
+  padding: 15px;
+}
+
+.AdBottom_innerCon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: auto;
+}
+
+.animator_div {
+  color: #e5e5e5;
+  font-size: 14px;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.animation {
+  height: 30px;
+  overflow: hidden;
+  margin-left: 1rem;
+}
+
+.animation>div>div {
+  padding: 0.25rem 0.75rem;
+  height: 2.81rem;
+  margin-bottom: 2.81rem;
+  display: inline-block;
+}
+
+.animation div:first-child {
+  animation: text-animation 8s infinite;
+}
+
+@keyframes text-animation {
+  0% {
+    margin-top: 0;
+  }
+
+  10% {
+    margin-top: 0;
+  }
+
+  20% {
+    margin-top: -5.62rem;
+  }
+
+  30% {
+    margin-top: -5.62rem;
+  }
+
+  40% {
+    margin-top: -11.24rem;
+  }
+
+  60% {
+    margin-top: -11.24rem;
+  }
+
+  70% {
+    margin-top: -5.62rem;
+  }
+
+  80% {
+    margin-top: -5.62rem;
+  }
+
+  90% {
+    margin-top: 0;
+  }
+
+  100% {
+    margin-top: 0;
+  }
+}
+
+.Ab_div {
+  display: flex;
+}
+
+.AdBottom_div {
+  display: flex;
+  font-size: 15px;
+  justify-content: center;
+  align-items: center;
+  font-weight: 400;
+  color: white;
+}
+
+.text-container {
+  position: relative;
+  height: 50px;
+  overflow: hidden;
+}
+
+.text-container p {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.text-container p.active {
+  opacity: 1;
+}
+
+.AdBottom_div>p {}
+
+/* meduim screen  */
+@media screen and (min-width: 500px) and (max-width: 1000px) {
+  .AdBottom_mainCon {
+    /* margin-top: 40px; */
+    /* height: 60px; */
+  }
+}
+
+@media screen and (min-width: 10px) and (max-width: 500px) {
+  .AdBottom_innerCon {
+    display: flex;
+    flex-direction: column;
+    height: 150px;
+    margin-top: 60px;
+    background-color: white;
+    display: none;
+  }
+}

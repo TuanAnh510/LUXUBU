@@ -1,0 +1,135 @@
+.Iv-container {
+  display: block;
+  min-height: 400px;
+}
+.Iv-style {
+  background: rgb(245, 246, 246);
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.wrapLayout {
+  display: block;
+  width: 80%;
+  margin: 0 auto;
+  padding: 0;
+}
+@media screen and (min-width: 960px) {
+  .wrapLayout {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+.listNav {
+  height: 200px;
+  background: #fff;
+  padding-top: 15px;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: 0.3s height ease-out 0s;
+}
+@media (max-width: 768px) {
+  .listNav {
+    display: none;
+  }
+}
+@media (min-width: 769px) {
+  .listNav {
+    display: block;
+  }
+}
+
+.Iv_heading {
+  cursor: pointer;
+  height: 65px;
+  line-height: 40px;
+  font-size: 18px;
+  color: black;
+  padding: 0 12px 0 23px;
+  justify-content: space-between;
+  font-weight: 600;
+  width: 335px;
+}
+.Iv_content {
+  padding: 0 10px;
+  width: 100%;
+}
+.Iv_content {
+  padding: 0 23px;
+}
+@media screen and (min-width: 960px) {
+  .main_styler {
+    width: calc(70% - 2%);
+  }
+}
+.bor {
+  border: 1px dashed #9a9a9a;
+  border-radius: 8px;
+  cursor: pointer;
+  background-color: #fff;
+}
+.br {
+  border-bottom: 2px solid #e9ebee;
+}
+.item_kh {
+  flex: 1 1;
+  color: #fe2c6d;
+  height: 44px;
+  position: relative;
+  line-height: 44px;
+  padding: 0 16px;
+  text-align: center;
+  font-size: 14px;
+  white-space: nowrap;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.item_hh {
+  flex: 1 1;
+  height: 44px;
+  position: relative;
+  line-height: 44px;
+  padding: 0 16px;
+  text-align: center;
+  font-size: 14px;
+  white-space: nowrap;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.item_kh::after {
+  position: absolute;
+  display: block;
+  content: "";
+  width: 100%;
+  height: 2px;
+  left: 0;
+  bottom: 1px;
+  background: #fe2c6d;
+}
+.Ivite_loho {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 30px;
+}
+.Ivite_header {
+  justify-content: center;
+  min-height: 125px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  background-color: #f7f9fa;
+  display: flex;
+  flex-direction: column;
+}
+.Ivite_body {
+  background-image: url("https://js.lixibox.com/image-assets/checkout/referral_background_2.png");
+  border: 2px dashed #c5c5c5;
+  border-top: none;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  background-color: #fff;
+}
+.Ivite_info {
+  margin: 8px 16px 12px;
+}

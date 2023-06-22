@@ -1,0 +1,69 @@
+.messenger-container {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.messenger-chat {
+  flex: 1;
+  background-color: #f0f0f0;
+  border-radius: 4px;
+  padding: 10px;
+  margin-bottom: 10px;
+  overflow-y: auto;
+}
+
+.message_title {
+  background-color: #037af8;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  margin-left: auto;
+  font-size: 15px;
+  color: #fff;
+}
+
+.messenger-input {
+  display: flex;
+}
+
+.Mess_Text {
+  flex: 1;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 10px;
+  color: black;
+}
+
+.Messbtn {
+  background-color: #3b5998;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.active-dot {
+  width: 20px;
+  height: 20px;
+  background-color: #44b317;
+  border-radius: 50%;
+}
+
+.inactive-dot {
+  width: 20px;
+  height: 20px;
+  background-color: #ccc;
+  border-radius: 50%;
+}
+
+.Chatbutton {
+  margin-left: 5px;
+  font-size: 15px;
+  color: #000000;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}

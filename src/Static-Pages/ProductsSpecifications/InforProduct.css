@@ -1,0 +1,25 @@
+.info_Product {
+  padding: 11px 0px 15px;
+  border-top: 2px solid rgb(240, 242, 245);
+  margin-top: 20px;
+  width: 100%;
+}
+.btn_show:hover {
+  color: #6698ff;
+  background-color: rgba(0, 0, 0, 0.03);
+}
+/* .btn_show:active, .btn_show:focus {
+    color: #2233cc;
+    background-color: rgba(151, 142, 142, 0.1);
+  } */
+.btn_show {
+  display: flex;
+}
+.btn_showFirst {
+  display: flex;
+  padding-top: 20px;
+}
+.btn_showFirst:hover {
+  color: #6698ff;
+  background-color: rgba(0, 0, 0, 0.03);
+}

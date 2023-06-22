@@ -1,0 +1,61 @@
+.thumbs {
+  display: none;
+}
+.dots {
+  border: 1px solid black;
+  font-size: 20px;
+}
+
+.maindivhai {
+  /* border: 1px solid red; */
+  width: 90%;
+  margin: auto;
+  height: 600px;
+}
+.carousel-status {
+  display: none;
+}
+@media screen and (min-width: 500px) and (max-width: 1000px) {
+  .maindivhai {
+    /* border: 1px solid red; */
+    width: 90%;
+    margin: auto;
+    height: 300px;
+  }
+}
+@media screen and (min-width: 10px) and (max-width: 500px) {
+  .maindivhai {
+    /* border: 1px solid red; */
+    width: 90%;
+    margin: auto;
+    height: 300px;
+  }
+  .carousel-slider {
+    /* border: 1px solid red; */
+    height: 150px;
+  }
+}
+.banner-user {
+  height: 600px;
+}
+.banner-user-elem {
+  text-align: center;
+  color: #fff;
+  position: relative;
+  overflow: hidden;
+}
+.banner-user-elem .banner-user-title {
+  font-size: 32px;
+  top: 40%;
+}
+.banner-user-elem .banner-user-text {
+  top: 40%;
+}
+.banner-anim-elem .bg {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+}
